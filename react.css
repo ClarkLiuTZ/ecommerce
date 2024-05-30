@@ -1,0 +1,500 @@
+:root {
+    /* ctrl+H +> var(--xxxx)取代*/
+    --bg: #F9FAF5;
+    --green: #3A684E;
+    --yellow: #FFDD50;
+    --b60: #666666;
+    --b20: #CDCDCD;
+    --b5: #EDEDED;
+    --b80: #343434;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 1rem;
+    width: 7rem;
+    height: 4.125rem;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin: 0;
+    /* max-width: 1200px;
+    min-width: 860px;
+    max-height: 564px;
+    min-height: 385.4px; */
+    width: 83vw;
+    height:51.6vh;
+}
+
+.container {
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 52px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menuLogo {
+    width: 2.625rem;
+    height: 2.625rem;
+}
+
+.menu button {
+    background-color: #EDEDE9;
+    color: var(--b80);
+    border: 0.5px solid #DBDCD7;
+    cursor: pointer;
+    width: 33.33%;
+    height: 3.25rem;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, border-top 0.5s, font-weight 0.5s;
+}
+
+.menu button:hover {
+    transition: .5s;
+}
+
+.menu button:hover,
+.menu button:focus {
+    background-color: #f9faf5;
+    border-bottom: none;
+    border-top: 2px solid var(--green);
+    font-weight: bold;
+}
+
+
+.form p {
+    font-size: 1rem;
+}
+
+.memberInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.memberInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.memberInfo img {
+    margin-right: 0.5rem;
+}
+
+.memberInfo input {
+    margin-right: 0.5rem;
+}
+
+
+.section-title {
+    margin-bottom: 2rem;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    max-width: 75rem;
+}
+
+.form-group {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    width: 50%;
+}
+
+.form-group-2 {
+    display: flex;
+}
+
+.form-group input {
+    margin-right: 2rem;
+    word-wrap: break-all;
+    white-space: normal;
+}
+
+.form-group-2 {
+    display: flex;
+    margin-right: 2rem;
+}
+
+
+/* 超連結 */
+.form-row a {
+    font-size: 1rem;
+}
+
+.black {
+    color: #343434;
+    /* align-self: center; */
+}
+
+.form-group-2 a {
+    text-decoration: none;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.phone-input {
+    display: flex;
+}
+
+.justify-content-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#cancelBtn {
+    width: 6.1875rem;
+    height: 2.75rem;
+    color: #000000;
+    background-color: #f9faf5;
+    border: 0.5px solid #000000;
+    text-align: center;
+    line-height: 44px;
+    font-size: 1.25rem;
+}
+
+.memberState {
+    padding: 0 15px;
+    background-color: var(--green);
+    color: var(--bg);
+    border-radius: 99px;
+    width: 7.375rem;
+    height: 2rem;
+    line-height: 2rem;
+    display: inline-block;
+}
+
+#saveBtn {
+    width: 9.6875rem;
+    height: 44px;
+    color: var(--bg);
+    background-color: var(--green);
+    text-align: center;
+    line-height: 44px;
+    font-size: 1.25rem;
+}
+
+#saveBtn a {
+    color: var(--bg);
+}
+
+.mailBtn {
+    width: 60%;
+    height: 2.5rem;
+    color: #ffffff;
+    background-color: var(--green);
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    margin-left: 4rem;
+}
+
+.mailBtn a {
+    color: var(--bg);
+}
+
+#inputForm1,
+#inputForm2 {
+    width: 60%;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 1px solid var(--b20);
+    color: var(--b80);
+    font-size: 16pt;
+}
+
+#inputForm3 {
+    margin: 0;
+    width: 47%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--b20);
+    color: var(--b80);
+    font-size: 16pt;
+}
+
+select {
+    background: transparent;
+    border: 1px solid var(--b20);
+    margin: 0;
+    width: 30%;
+    height: 2.5rem;
+    box-sizing: border-box;
+    font-size: 14pt;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    /* white-space: nowrap; */
+}
+
+/* 動畫 */
+
+.box_moveForward img {
+    margin-top: 50px;
+    margin-left: 3.82vw;
+    width: 80px;
+    height: 80px;
+}
+
+.timeline {
+    position: relative;
+    width: 69.44vw;
+}
+
+.deliveryStatus {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.deliveryStatus div {
+    margin: 4.86vw 0 0 0;
+    flex: 1;
+
+
+}
+
+.box_moveForward {
+    position: relative;
+    display: inline-block;
+}
+
+.deliveryLogo {
+    width: 6.67%;
+    height: 6.67%;
+    position: relative;
+    animation-name: deliveryLogo;
+    animation-duration: 6s;
+    /* 循環播放次數 */
+    animation-iteration-count: 1;
+    animation-direction: linear;
+    top: 40px;
+    z-index: 3;
+}
+
+.dot div {
+    flex: 1;
+}
+
+.dot {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 125px;
+}
+
+.dot img {
+    margin: 0 auto;
+    width: 16px;
+    height: 16px;
+}
+
+hr {
+    position: relative;
+    z-index: 1;
+    width: 69.44vw;
+    border: 2px solid #3A684E;
+}
+
+
+@keyframes deliveryLogo {
+    0% {
+        left: 0vw;
+        top: 40px;
+    }
+
+    25% {
+        left: 13.61vw;
+        top: 40px;
+    }
+
+    50% {
+        left: 27.78vw;
+        top: 40px;
+    }
+
+    75% {
+        left: 43vw;
+        top: 40px;
+    }
+
+    100% {
+        left: 57vw;
+        top: 40px;
+    }
+}
+
+/* rwd斷點
+/* 桌機板 */
+@media(min-width:821px) {}
+
+/* 平板 */
+@media(max-width: 820px) {
+    #react-container {
+        max-width: 95.12%;
+    }
+
+    .spa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .menu,
+    .container {
+        width: 100%;
+    }
+
+    .timeline,
+    hr {
+        width: 100%;
+        ;
+    }
+
+    .form {
+        flex: 1;
+    }
+    /* label {
+        font-size: 1rem;
+        width: 7rem;
+        height: 4.125rem;
+        display: flex;
+        align-items: center;
+    } */
+    #inputForm1,
+    #inputForm2{
+        width: 100%;
+    }
+    .mailBtn{
+        width: 55%;
+        margin-left: 35%;
+    }
+
+    #inputForm3 {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    form p {
+        font-size: 0.8rem;
+    }
+
+    #cancelBtn {
+        width: 100%;
+    }
+
+    #saveBtn {
+        width: 100%;
+    }
+}
+
+/* 手機板 */
+@media (max-width: 640px) {
+    #react-container {
+        max-width: 95.12%;
+    }
+
+    .menu,
+    .container {
+        width: 100%;
+    }
+
+    .timeline,
+    hr {
+        width: 72.22vw;
+    }
+
+    .box_moveForward img {
+        margin-left: 0;
+    }
+
+    .deliveryLogo {
+        width: 2%;
+        height: 2%;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-group {
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .justify-content-end {
+        flex-direction: row;
+    }
+
+    #inputForm1,
+    #inputForm2,
+    .mailBtn {
+        width: 100%;
+    }
+
+    option {
+        font-size: 0.8rem;
+    }
+
+    .phone-input select {
+        width: 30%;
+    }
+
+    #inputForm3 {
+        width: 55%;
+    }
+
+    .form-group-2 {
+        display: flex;
+    }
+    .mailBtn{
+        width: 65%;
+        margin-left: 25%;
+    }
+    #cancelBtn {
+        width: 100%;
+    }
+
+    #saveBtn {
+        width: 100%;
+    }
+}
